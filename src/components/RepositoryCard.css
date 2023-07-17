@@ -1,0 +1,58 @@
+.repository-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.repository-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.repository-card p {
+  margin-bottom: 8px;
+}
+
+.repository-card button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.repository-card button:hover {
+  background-color: #ff5b55;
+}
+
+/* App.css */
+.app {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.search-input {
+  width: 100%;
+  background-color: #f5f5f5;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #ff5b55;
+}

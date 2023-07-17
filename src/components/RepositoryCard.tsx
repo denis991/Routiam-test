@@ -1,4 +1,5 @@
 import React from 'react';
+import './RepositoryCard.css'; // Импортируем файл стилей
 
 const RepositoryCard = ({ repository }) => {
   const handleProjectClick = () => {
@@ -10,7 +11,7 @@ const RepositoryCard = ({ repository }) => {
   };
 
   return (
-    <div>
+    <div className="repository-card">
       <h3>{repository.name}</h3>
       <p>Author: {repository.owner.login}</p>
       <p>Stargazers: {repository.stargazers_count}</p>
